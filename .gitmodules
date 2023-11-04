@@ -1,0 +1,12 @@
+[submodule "bcwc_pcie"]
+	path = bcwc_pcie
+	url = https://github.com/patjak/bcwc_pcie.git
+[submodule "facetimehd-firmware"]
+	path = facetimehd-firmware
+	url = https://github.com/patjak/facetimehd-firmware.git
+[submodule "macbook12-bluetooth-driver"]
+	path = macbook12-bluetooth-driver
+	url = https://github.com/leifliddy/macbook12-bluetooth-driver
+[submodule "snd_hda_macbookpro"]
+	path = snd_hda_macbookpro
+	url = https://github.com/davidjo/snd_hda_macbookpro.git
