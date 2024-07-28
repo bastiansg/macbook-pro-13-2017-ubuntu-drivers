@@ -1,6 +1,6 @@
-# mac-B4831CEBD52A0C4C-ubuntu-drivers
+# macbook-pro-13-2017-ubuntu-drivers
 
-### This repository provides a comprehensive installation script for setting up all necessary drivers to run Ubuntu 22.04 seamlessly on the `MacBook Pro (13-inch, 2017)` model.
+### This repository provides a comprehensive installation script for setting up all necessary drivers to run Ubuntu 22.04 seamlessly on the `MacBook Pro (13-inch, 2017)`, specifically for the board model `B4831CEBD52A0C4C`.
 
 ### Basic usage:
 
