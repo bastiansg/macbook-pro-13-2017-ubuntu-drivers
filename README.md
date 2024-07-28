@@ -8,3 +8,12 @@ To install all the required drivers, run the following command:
 ```bash
 sudo ./install.sh
 ```
+
+### Features
+
+This installation script ensures proper functionality of the following components:
+
+    - Audio: Enables sound output.
+    - Camera: Allows usage of the built-in camera.
+    - Microphone: Enables audio input via the built-in microphone.
+    - Bluetooth: Supports Bluetooth connectivity.
