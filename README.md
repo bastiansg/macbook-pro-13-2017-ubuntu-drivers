@@ -1,8 +1,15 @@
 # macbook-pro-13-2017-ubuntu-drivers
 
 
-### This repository provides a comprehensive installation script for setting up all necessary drivers to run Ubuntu 24.04.2 seamlessly on the `MacBook Pro (13-inch, 2017)`, specifically for the board model `B4831CEBD52A0C4C`.
+### This repository provides a comprehensive installation script for setting up all necessary drivers to run Ubuntu 24.04.3 seamlessly on the `MacBook Pro (13-inch, 2017)`, specifically for the board model `B4831CEBD52A0C4C`.
 
+
+### Clone the Repository
+This project uses Git submodules, so you need to clone it recursively:
+
+```bash
+git clone --recursive https://github.com/bastiansg/macbook-pro-13-2017-ubuntu-drivers.git
+```
 
 ### Requirements
 
@@ -19,7 +26,7 @@ Before running the installation script, ensure that the package `linux-source` i
 2. Download the package:
     Go to https://archive.ubuntu.com/ubuntu/pool/main/l/linux/ and download the appropriate .deb file for your kernel version.
 
-3. nstall the Package:
+3. Install the Package:
     Open a terminal and run:
     ```bash
     sudo dpkg -i linux-source-[PACKAGE_VERSION].deb
