@@ -1,6 +1,6 @@
 [submodule "bcwc_pcie"]
 	path = bcwc_pcie
-	url = https://github.com/patjak/bcwc_pcie.git
+	url = https://github.com/bastiansg/bcwc_pcie.git
 [submodule "facetimehd-firmware"]
 	path = facetimehd-firmware
 	url = https://github.com/patjak/facetimehd-firmware.git
