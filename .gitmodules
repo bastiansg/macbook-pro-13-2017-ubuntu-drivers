@@ -9,4 +9,4 @@
 	url = https://github.com/bastiansg/macbook12-bluetooth-driver.git
 [submodule "snd_hda_macbookpro"]
 	path = snd_hda_macbookpro
-	url = https://github.com/davidjo/snd_hda_macbookpro.git
+	url = https://github.com/bastiansg/snd_hda_macbookpro.git
