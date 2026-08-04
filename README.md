@@ -5,13 +5,13 @@
 
 ### Ubuntu 26.04 support
 
-Ubuntu 26.04 with kernel 7 requires compatibility fixes for the FaceTimeHD camera driver. This repository now points the `bcwc_pcie` submodule to the maintained fork at:
+Ubuntu 26.04 with kernel 7 uses three maintained forks:
 
-```text
-https://github.com/bastiansg/bcwc_pcie.git
-```
+- [`bcwc_pcie`](https://github.com/bastiansg/bcwc_pcie): updates the FaceTimeHD driver for kernel 7 API changes.
+- [`macbook12-bluetooth-driver`](https://github.com/bastiansg/macbook12-bluetooth-driver): prevents kernel source downloads from hanging during installation.
+- [`snd_hda_macbookpro`](https://github.com/bastiansg/snd_hda_macbookpro): fixes the DKMS module path used by kernel 6.17 and newer.
 
-That fork includes fixes for kernel 7 build changes in the random, DMA, PCI, and V4L2/videobuf2 APIs. The FaceTimeHD module has been verified to build on kernel `7.0.0-15-generic`.
+The FaceTimeHD module has been verified to build on kernel `7.0.0-15-generic`.
 
 
 ### Clone the Repository
